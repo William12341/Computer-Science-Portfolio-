@@ -1,0 +1,21 @@
+#navbar{
+    text-align:center;
+} 
+
+#navbar li{
+    display:inline-block;
+    border: 2px solid blue;  
+    padding: 2px; 
+
+
+
+    color:red;
+    transition:0.5s all linear;
+    background-color:none;
+    transform:rotateZ(0deg);
+}    
+
+#navbar li:hover{
+    background-color:yellow;
+    transform:rotateZ(1000000deg);      
+}          
